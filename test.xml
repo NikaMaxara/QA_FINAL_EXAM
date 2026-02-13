@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelSuite" parallel="classes" thread-count="1">
+
+    <listeners>
+        <listener class-name="test.automation.Listeners.AllureListener"/>
+    </listeners>
+
+    <test name="API Tests">
+        <packages>
+            <package name="test.automation.APITests"/>
+        </packages>
+    </test>
+
+    <test name="UI Tests">
+        <packages>
+            <package name="test.automation.UITests"/>
+        </packages>
+    </test>
+</suite>
