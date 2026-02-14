@@ -54,7 +54,7 @@ public class HomeSteps {
 
     @Step("Open Test cases Page")
     public HomeSteps openTestCasePage(){
-        driver.findElement(homePage.testCasePage).click();
+        driver.findElement(homePage.testCaseButton).click();
         return this;
     }
 

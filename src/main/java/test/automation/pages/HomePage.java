@@ -12,6 +12,7 @@ public class HomePage {
     public By logOut = By.xpath("//header[@id='header']//a[@href='/logout']");
     public By contactUs = By.xpath("//header[@id='header']//a[@href='/contact_us']");
     public By testCasePage = By.xpath("//a[@href='/test_cases']/button[text()='Test Cases']");
+    public By testCaseButton = By.xpath("//div[@id='slider-carousel']//button[contains(text(),'Test Cases')]");
     public By subscriptionLabel = By.xpath("//h2[contains(text(),'Subscription')]");
     public By scrollUpButton = By.id("scrollUp");
     public By topText = By.xpath("//h2[contains(text(),'Full-Fledged practice website for Automation Engineers')]");

@@ -25,6 +25,4 @@ public class HelperMethods {
         return file.getAbsolutePath();
     }
 
-
-
 }
